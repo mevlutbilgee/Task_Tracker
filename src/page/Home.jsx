@@ -8,7 +8,7 @@ const Home = () => {
   const [isOpen,setIsOpen]=useState(false)
   const [text,setText]=useState("Show Task Bar")
   const [task,setTask]= useState([]);
-  const url="https://63516c99dfe45bbd55bfd9a2.mockapi.io/api/tasks"
+  const url = "https://635f638a3e8f65f283b1f178.mockapi.io/api/task";
 
   const toggle=()=>{
     setIsOpen(!isOpen);

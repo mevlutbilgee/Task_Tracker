@@ -15,7 +15,7 @@ const AddTask = ({getTask}) => {
     setDate("")
   }
  const addNewTask=async(newTask)=>{
-  const url="https://63516c99dfe45bbd55bfd9a2.mockapi.io/api/tasks"
+  const url = "https://635f638a3e8f65f283b1f178.mockapi.io/api/task";
   try {
     await axios.post(url,newTask)
   }catch (error) { 
